@@ -10,34 +10,40 @@
     <header class="bg-white shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex flex-col md:flex-row justify-between items-center text-sm">
       <div class="flex flex-wrap gap-4 items-center">
-        <img src="/imagej/logo (23).png" alt="" class="h-10" />
-        <div>
+        <div class="flex gap-[120px]">
+            <img src="/imagej/logo (23).png" alt="" class="h-10" />
+            <div class="lg:hidden flex items-center">
+                <img src="/imagej/call (2).png" alt="">
+                <img src="/imagej/burger (1).png" alt="" class="w-[30px] h-[20px]">
+            </div>
+        </div>
+        <div class="hidden lg:block">
             <p>8 (495) 926-06-03</p>
             <div class="flex gap-[10px]">
                 <img src="/imagej/social (1).png" alt="">
                 <p>Whatsapp</p>
             </div>
         </div>
-        <div>
+        <div class="hidden lg:block">
             <p class=" text-[gray]">info@gormedcentre.ru</p>
             <p class="text-[gray]">Заказать звонок</p>
         </div>
-        <div>
+        <div class="hidden lg:block">
             <p class="hidden md:inline text-[gray]">г. Мытищи, ул. Рождественская, д.7</p>
             <p class="text-[gray]">ул.Рождественская, д.7</p>
         </div>
-        <div>
+        <div class="hidden lg:block">
             <p class="hidden md:inline text-[gray]">Ежедневно с 9:00 до 21:00</p>
             <p class="text-[gray]">с 9.00 до 21.00</p>
         </div>
       </div>
-      <div class="mt-2 md:mt-0 flex gap-2 items-center">
+      <div class="mt-2 md:mt-0 lg:flex gap-2 items-center hidden">
         <img src="/imagej/search (3).png" alt="" class="w-[35px]">
         <button class="bg-blue-500 text-white px-3 py-1 rounded">Личный кабинет</button>
       </div>
     </div>
   </header>
-  <nav class="bg-white border-t border-b">
+  <nav class="bg-white border-t border-b hidden lg:block">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between items-center py-3 text-sm">
       <div class="flex gap-4 overflow-x-auto whitespace-nowrap">
         <p class="hover:text-blue-500">Направления</p>
